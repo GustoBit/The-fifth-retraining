@@ -1,0 +1,392 @@
+//compress: true
+@media (max-width: 1024px) {
+    .container {
+        padding-inline: 15px;
+    }
+    .nav {
+        margin-top: 20px;
+    }
+    .hero {
+        margin-top: 20px;
+        padding: 58px;
+    }
+    .information {
+        margin-top: 60px;
+    }
+    .reviews {
+        margin-top: 60px;
+        padding: 20px 0;
+    }
+    .question {
+        margin-top: 50px;
+    }
+    .partners {
+        margin-top: 70px;
+    }
+    .footer {
+        margin-top: 58px;
+    }
+    .our .emblame {
+        margin-right: 0;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+    .information .giftright,
+    .partners__grid .left {
+        display: none;
+    }
+    .our .word {
+        padding-left: 0;
+        text-align: center;
+    }
+    .partners .goodbye {
+        padding-top: 30px;
+    }
+    .footer__grid {
+        padding: 58px;
+    }
+    .question__about h3 {
+        font-size: 30px;
+    }
+    .world h1 {
+        font-size: 40px;
+    }
+    .world .until {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .world__grid {
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    .petro {
+        padding: 20px;
+    }
+    .course {
+        padding: 20px;
+    }
+    .course .bigm img,
+    .course .bigt img {
+        width: 400px;
+        height: 400px;
+    }
+    .course h2,
+    .course ul {
+        margin-bottom: 0;
+    }
+    .course {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .course__button {
+        margin-top: auto;
+    }
+    .information h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .hero h1 {
+        z-index: 10;
+        position: relative;
+    }
+    .sale {
+        gap: 20px;
+        &__percent img {
+            width: 80px;
+            height: 48px;
+        }
+        &__about {
+            font-size: 25px;
+        }
+        &__data {
+            font-size: 18px;
+        }
+    }
+    .information .giftleft {
+        display: none;
+    }
+}
+@media (max-width: 836px) {
+    .nav {
+        margin-top: 20px;
+    }
+    .hero {
+        margin-top: 20px;
+        padding: 50px;
+    }
+    .information,
+    .reviews,
+    .footer,
+    .question {
+        margin-top: 30px;
+    }
+    .partners {
+        margin-top: 50px;
+        padding: 20px 0;
+        &__grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    }
+    .information .giftleft,
+    .hero__absolute {
+        display: none;
+    }
+    .footer__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        align-items: start;
+        padding: 58px;
+    }
+    .footer__clock,
+    .footer__categories,
+    .footer__number {
+        margin-left: 0;
+    }
+    .our .emblame {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .partners .goodbye {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .partners__grid h3 {
+        font-size: 40px;
+        color: #1f222e;
+        margin-bottom: 0;
+    }
+    .question__about h3 {
+        font-size: 28px;
+    }
+    .world .until,
+    .world h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .md__none {
+        display: none;
+    }
+    .world__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .course .bigm img,
+    .course .bigt img {
+        width: 300px;
+        height: 400px;
+    }
+    .hero h1 {
+        font-family: "trialextrabold";
+        font-size: 40px;
+        text-align: center;
+    }
+    .hero p {
+        margin-bottom: 30px;
+        padding-inline: 50px;
+        text-align: center;
+    }
+    .hero__link {
+        gap: 20px;
+        padding-inline: 70px;
+    }
+    .nav__btn {
+        padding: 10px 20px;
+    }
+    .nav__link .link {
+        padding: 6px 9px;
+    }
+    .sale__percent img {
+        width: 60px;
+        height: 38px;
+    }
+    .sale__about {
+        font-size: 20px;
+    }
+    .sale__data {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .header__img img {
+        width: 336px;
+        height: 100px;
+    }
+    .sale {
+        gap: 40px;
+    }
+    .hero__link {
+        gap: 20px;
+        padding-inline: 30px;
+    }
+    .information,
+    .reviews,
+    .footer,
+    .question {
+        margin-top: 20px;
+    }
+    .information h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .partners__grid h3 {
+        font-size: 30px;
+    }
+    .partners__grid .button {
+        padding: 15px 60px;
+    }
+    .question__about h3 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 500px) {
+    .footer__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our .emblame {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .question {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px;
+        .absolute {
+            display: none;
+        }
+    }
+    .world__grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .information__grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .hero__link {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 30px);
+        gap: 10px;
+        padding-inline: 10px;
+    }
+    .hero {
+        margin-top: 10px;
+        padding: 20px;
+    }
+    .nav,
+    .information,
+    .reviews,
+    .question {
+        margin-top: 10px;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .nav__btn,
+    .nav__link,
+    .header__img {
+        display: none;
+    }
+    .none {
+        display: block;
+        button {
+            border: unset;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            background: unset;
+        }
+        button::after,
+        button::before {
+            content: "";
+            width: 30px;
+            height: 4px;
+            background: @darkblue;
+            border-radius: 20px;
+            display: block;
+            border: none;
+        }
+        span {
+            content: "";
+            width: 30px;
+            height: 4px;
+            background: @blue;
+            border-radius: 20px;
+            display: block;
+            border: none;
+        }
+    }
+    @blue: #2589e7;
+    @darkblue: #1b2eda;
+    .sale {
+        gap: 20px;
+    }
+    .hero h1 {
+        font-size: 25px;
+    }
+    .hero p {
+        margin-bottom: 20px;
+        padding-inline: 0;
+    }
+    .information h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .course h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .course__button {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    .world h1 {
+        font-size: 18px;
+    }
+    .world .until {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .question__about h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .question__about a {
+        font-size: 15px;
+        text-align: center;
+        display: block;
+    }
+    .partners {
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+    .partners__grid .button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .partners__grid h3 {
+        font-size: 20px;
+    }
+    .footer {
+        &__clock,
+        &__number,
+        &__categories,
+        &__logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
